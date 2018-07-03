@@ -32,6 +32,7 @@ header{
 			display:inline;
 			padding-right:20px;
 			list-style-type: none;
+			font-weight: 400;
 		}
 
 			li a {
@@ -98,6 +99,7 @@ body {
 					margin-right:10px;
 					border-radius:4px;
 					background:#e8e8e8;
+					font-weight: 600;
 					color: #7c7c7c;
 				}
 
@@ -115,6 +117,11 @@ body {
 
 				#button_blue:hover{
 					border:none;
+				}
+
+				#button_blue:active{
+					box-shadow: inset 0px 3px 3px #094ace;
+					background-color:#4468cc;
 				}
 
 				#button_blue a{
@@ -155,14 +162,14 @@ footer{
 		border-bottom:solid;
 		border-width:1px;
 		border-color:#bcbcbc; 
-		padding-left:15px;
+		padding-left:20px;
 	}
 
 
 	.ligne_2{
 		position:relative;
-		padding-left:15px;
-		padding-right:15px;
+		padding-left:20px;
+		padding-right:5px;
 	}
 
 
